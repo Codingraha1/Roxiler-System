@@ -13,7 +13,7 @@ const transactionRoutes = require('./routes/transactionRoutes');
 app.use('/api/transactions', transactionRoutes);
 
 mongodb://root:12345@127.0.0.1:27017/Roxiler
-mongoose.connect('mongodb+srv://bhendekunal71:mongodpure1234@cluster0.dxfb8.mongodb.net/Roxiler?retryWrites=true&w=majority&appName=Cluster0').then(() => console.log('MongoDB connected'))
+mongoose.connect('mongodb+srv://bhendekunal71:<password>@cluster0.dxfb8.mongodb.net/Roxiler?retryWrites=true&w=majority&appName=Cluster0').then(() => console.log('MongoDB connected'))
   .catch(err => console.error(err));
 
 
